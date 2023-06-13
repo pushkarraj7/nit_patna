@@ -1,0 +1,62 @@
+body {
+    background-color: #be756d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    text-align: center;
+}
+
+.container h3 {
+    color: rgb(148, 26, 13);
+    font-size: 30px; /* Adjust the font size as desired */    
+}
+
+.container h1 {
+    color: rgb(148, 26, 13);
+    font-style: unset;
+    font-size: 80px;
+    padding-bottom: 0px;
+}
+
+.container p {
+    font-size: 20px;
+    padding-top: 0vh;
+}
+
+.container h2 {
+    padding-top: 5vh;
+}
+
+.container img {
+    width: 100px; /* Adjust the image size as desired */
+    padding-top: 20px; /* Adjust the top padding as desired */
+}
+
+.container input[type="email"] {
+    width: 350px; /* Enlarge the input box width */
+    height: 20px; /* Set the height for the input box */
+    padding: 15px; /* Adjust the padding as desired */
+    font-size: medium; /* Adjust the font size as desired */
+    border-radius: 10px; /* Add rounded corners */
+    border: none; /* Remove default borders */
+}
+
+.container button {
+    width: 150px; /* Make the button smaller */
+    height: 50px; /* Set the height for the button */
+    padding: 8px; /* Adjust the padding as desired */
+    font-size: medium; /* Adjust the font size as desired */
+    border-radius: 10px; /* Add rounded corners */
+    border: none; /* Remove default borders */
+    background-color: rgb(148, 26, 13); /* Set the button color to marron */
+    color: white; /* Set the text color to white */
+}
+
+.container .btn a {
+    color: inherit;
+    text-decoration: none;
+}
